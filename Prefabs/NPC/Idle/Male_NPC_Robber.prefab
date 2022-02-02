@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &114445881939166236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8349663469154797447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f989d3e6c0b37a40b4fc2cc34eadeae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitInterval: 0
+  moveInterval: 0
+  enemySpeed: 1.6666666
+  runSpeed: 2.1666665
+  direction: 0
+  isFollowing: 0
+  isRobber: 1
+  hasStolenMoney: 0
+  animator: {fileID: 6573177869495185527}
+  playerReference: {fileID: 8004711795378024598, guid: 1e259c74df24ff84a9f74733bc07f481,
+    type: 3}
+--- !u!1001 &5782615327897601178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2585080132357571357, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_Name
+      value: Male_NPC_Robber
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585080132357571357, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_TagString
+      value: Robber
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675780991727786200, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_Radius
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5446079129500923483, guid: d1b793c1844c10948b22275846d0f143,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114973843859230446, guid: d1b793c1844c10948b22275846d0f143, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d1b793c1844c10948b22275846d0f143, type: 3}
+--- !u!1 &8349663469154797447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2585080132357571357, guid: d1b793c1844c10948b22275846d0f143,
+    type: 3}
+  m_PrefabInstance: {fileID: 5782615327897601178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6573177869495185527 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 794714304215053549, guid: d1b793c1844c10948b22275846d0f143,
+    type: 3}
+  m_PrefabInstance: {fileID: 5782615327897601178}
+  m_PrefabAsset: {fileID: 0}
